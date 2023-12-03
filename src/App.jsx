@@ -1,9 +1,11 @@
 import { useState } from 'react'
+import Login from './features/identity/components/Login'
+import Register from './features/identity/components/register'
 
 function App() {
 
   return (
-    <p>پلتفرم آموزش آنلاین</p>
+    <Register />
   )
 }
 
